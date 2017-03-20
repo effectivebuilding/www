@@ -27,23 +27,58 @@
             text-align: center;
         }
 
-        input {
-            margin: 20px;
+        input[type="text"],
+        input[type="text"],
+        input[type="password"],
+        input[type="datetime"],
+        input[type="datetime-local"],
+        input[type="date"],
+        input[type="month"],
+        input[type="time"],
+        input[type="week"],
+        input[type="number"],
+        input[type="email"],
+        input[type="url"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="color"],
+        .uneditable-input {
+            border: 2px solid #2f86bd;
+        }
+        textarea:focus,
+        input[type="text"]:focus,
+        input[type="password"]:focus,
+        input[type="datetime"]:focus,
+        input[type="datetime-local"]:focus,
+        input[type="date"]:focus,
+        input[type="month"]:focus,
+        input[type="time"]:focus,
+        input[type="week"]:focus,
+        input[type="number"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="color"]:focus,
+        .uneditable-input:focus {
+            -webkit-box-shadow: 2px -2px 30px 3px rgba(46,158,232,0.83);
+            -moz-box-shadow: 2px -2px 30px 3px rgba(46,158,232,0.83);
+            box-shadow: 2px -2px 30px 3px rgba(46,158,232,0.83);
         }
     </style>
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
-          <!--integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!--integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto:300,400,500" rel="stylesheet">
-    <!-- https://fonts.google.com/specimen/Roboto?selection.family=Kaushan+Script|Roboto:300,400,500 -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Roboto:500" rel="stylesheet">
+    <!-- https://fonts.google.com/specimen/Courgette?selection.family=Courgette|Kaushan+Script|Roboto:500 -->
 </head>
-<body class="full" style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 25px;">
-<div class="container">
+<body class="full" style="font-weight: 500; font-size: 25px;">
+<div class="container" style="color: white; text-shadow: 3px 3px 3px rgba(102, 150, 201, 0.6);">
     <div style="text-align: center"><img src="assets/logo.png" style="width: 25%;" class="center"></div>
     <p style="font-family: 'Kaushan Script', cursive; font-size: 50px"> Shhh... </p>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6"">
             <p>We are working on building the best green building material search experience you've ever had.
             <p>Leave us your info and we'll add you to our "Closed Beta testers" list and keep you posted on our
                 progress (very
@@ -51,16 +86,13 @@
         </div>
         <div class="col-sm-6">
             <form class="form-horizontal">
-                <div class="form-group">
-                    <input type="text" placeholder="Full Name" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="text" placeholder="Role" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-default btn-block">Submit</button>
+                <input type="text" placeholder="Full Name" class="form-control input-lg">
+                <br>
+                <input type="text" placeholder="Role" class="form-control input-lg">
+                <br>
+                <input type="email" placeholder="Email" class="form-control input-lg">
+                <br>
+                <button type="submit" class="btn btn-primary btn-lg btn-block" style="font-family: Courgette, 'Kaushan Script';font-size: xx-large">Stay in touch</button>
             </form>
         </div>
     </div>

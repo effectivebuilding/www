@@ -16,7 +16,7 @@
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "underline",
-    "@font-family-sans-serif": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "@font-family-sans-serif": "Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
     "@font-family-monospace": "Menlo, Monaco, Consolas, \"Courier New\", monospace",
     "@font-family-base": "@font-family-sans-serif",
@@ -87,13 +87,13 @@
     "@btn-border-radius-small": "@border-radius-small",
     "@input-bg": "transparent",
     "@input-bg-disabled": "@gray-lighter",
-    "@input-color": "@gray",
-    "@input-border": "#ccc",
+    "@input-color": "#fff",
+    "@input-border": "#4990e2",
     "@input-border-radius": "@border-radius-base",
     "@input-border-radius-large": "@border-radius-large",
     "@input-border-radius-small": "@border-radius-small",
     "@input-border-focus": "#66afe9",
-    "@input-color-placeholder": "#999",
+    "@input-color-placeholder": "#d8d8d8",
     "@input-height-base": "(@line-height-computed + (@padding-base-vertical * 2) + 2)",
     "@input-height-large": "(ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2)",
     "@input-height-small": "(floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2)",
@@ -387,19 +387,6 @@
     "buttons.less",
     "responsive-utilities.less"
   ],
-  "js": [
-    "alert.js",
-    "button.js",
-    "carousel.js",
-    "dropdown.js",
-    "modal.js",
-    "tooltip.js",
-    "popover.js",
-    "tab.js",
-    "affix.js",
-    "collapse.js",
-    "scrollspy.js",
-    "transition.js"
-  ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=727c7353614d020eeff3d65ee6b3308f"
+  "js": [],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=a4b0489c785f91f8ba56e276fe01c651"
 }
