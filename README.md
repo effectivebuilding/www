@@ -1,2 +1,2 @@
 # www
-https://github.com/effectivebuilding/www
+http://effectivebuilding.github.io/www
